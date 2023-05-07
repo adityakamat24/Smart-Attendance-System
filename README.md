@@ -15,6 +15,11 @@ The system uses YOLO (You Only Look Once) pre-trained weights for face detection
 
 The attendance database is hosted on Firebase, which provides real-time updates and easy access to attendance records. The attendance records can be accessed by authorized personnel through a web-based dashboard or mobile application.
 
+
+The capture script take 50 images of the face and stores it.  
+The training script trains the model with the dataset created and makes a .yml file which is used to recognize the face.  
+The automation of facedatabase creates a link with firebase, recognizes the face and updates the attendance.
+
 **Structure**  
 ![Smart Attendance System](images/structure.png "Structure")
 
