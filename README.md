@@ -14,3 +14,9 @@ The smart attendance system uses a camera to capture the photos of students. The
 The system uses YOLO (You Only Look Once) pre-trained weights for face detection, which is a popular algorithm for object detection in real-time scenarios. The machine learning model used for face recognition is trained on a dataset of labeled faces using a deep learning framework like TensorFlow or PyTorch.
 
 The attendance database is hosted on Firebase, which provides real-time updates and easy access to attendance records. The attendance records can be accessed by authorized personnel through a web-based dashboard or mobile application.
+
+**Structure**  
+![Smart Attendance System](images/structure.png "Structure")
+
+**Process**  
+![Smart Attendance System](images/process.png "Process")
